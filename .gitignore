@@ -173,3 +173,4 @@ tags
 !.aiderignore
 .env
 .v
+./v
