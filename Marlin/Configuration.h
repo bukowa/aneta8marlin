@@ -715,9 +715,9 @@
     #define DEFAULT_Ki_LIST {   1.25,   1.25 }
     #define DEFAULT_Kd_LIST {  86.00,  86.00 }
   #else
-    #define DEFAULT_Kp 26.08
-    #define DEFAULT_Ki 2.12
-    #define DEFAULT_Kd 80.17
+    #define DEFAULT_Kp 20.94
+    #define DEFAULT_Ki 1.18
+    #define DEFAULT_Kd 92.62
   #endif
 #else
   #define BANG_MAX 255    // Limit hotend current while in bang-bang mode; 255=full current
@@ -815,9 +815,9 @@
 
   // ANET A8
   // original Bed + 0.3mm Heat conducting into 4mm borosilicate (PID-Autotune: M303 E-1 S60 C5):
-  #define DEFAULT_bedKp 146.79
-  #define DEFAULT_bedKi 19.69
-  #define DEFAULT_bedKd 729.49
+    #define DEFAULT_bedKp 122.56
+    #define DEFAULT_bedKi 16.62
+    #define DEFAULT_bedKd 602.43
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #else
